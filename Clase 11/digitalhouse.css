@@ -1,0 +1,26 @@
+.containter{
+  background-color: #000;
+}
+.nav{
+  margin: auto;
+  overflow: hidden;
+  max-width: 1200px;
+
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.logo{
+  float: left;
+  padding: 10px;
+}
+
+ul{
+  float: right;
+}
+li{
+  display: inline-block;
+  margin: 10px;
+  margin-top: 15px;
+}
