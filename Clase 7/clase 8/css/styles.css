@@ -1,0 +1,31 @@
+body{
+  background-color: #8386d4;
+  background-image: url(../img/fondo2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+p{
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+a{
+  background-color: #ffffff;
+  border-radius: 10px;
+  text-decoration: none;
+}
+a:hover{
+  background-color: rgb(53, 224, 0);
+  font-size: 30px;
+  border-radius: 0;
+}
+a:link{
+  color: rgb(33, 0, 99);
+}
+a:visited{
+  color: rgb(230, 0, 93);
+}
+a:active{
+  background-color: black;
+  color: white;
+}

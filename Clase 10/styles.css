@@ -1,0 +1,29 @@
+div{
+  padding: 15px;
+  border: 5px solid black;
+  margin: 10px;
+}
+.cajaVerde{
+  background-color: green;
+  /* le aviso a la caja grande que tiene elementos flotando para que no se achique */
+  overflow: hidden;
+}
+.cajaAzul{
+  background-color: rgba(7, 57, 235, 0.56);
+  width: 40%;
+  /* lo posiciono a la izquierda */
+  float: left;
+}
+.cajaRoja{
+  background-color: rgba(252, 18, 18,0.56);
+  width: 40%;
+  /* lo posiciono a la derecha */
+  float: right;
+}
+.cajaImagen{
+  background-image: url(fondo2.jpg);
+  background-size: cover;
+  /* limpio la flotación. Le aviso a la caja de abajo que tiene cajas arriba flotando para que no se ponga atras */
+  clear: both;
+  /* float: left; */
+}

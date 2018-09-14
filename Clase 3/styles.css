@@ -1,0 +1,15 @@
+/*
+Para escribir css siempre nos tenemos que hacer tres preguntas:
+#A quien queremos modificar?
+#Que es lo que le queremos modificar?
+#Como lo queremos modificar?
+*/
+/* Si le queremos modificar toda la página modificamos el body */
+body{
+  /* background color cambia el color, en este caso a rojo */
+  background-color: red;
+}
+h1{
+  /* color le cambia el color a la letra, en este caso a azul */
+  color: blue;
+}

@@ -1,0 +1,27 @@
+/* cualquier propiedad que yo le aplique al body se lo aplica a toda la pagina */
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+body{
+  /* font-family cambia la tipografía */
+  /* puedo entrar a fonts.google.com y elegir una fuente de las que se incluyen ahi siguiendo los pasos que allí me marcan*/
+  font-family: 'Oswald', sans-serif;
+}
+h1{
+  /* font-size cambia el tamaño de la letra y manejamos los tamaños en pixeles */
+  font-size: 50px;
+  /* font-weight cambia la negrita. Si ya esta en negrita con el valor "normal" se la saco */
+  font-weight: normal;
+  /* text-align me alinea el texto en este caso lo estamos justificando es decir que hacemos que llegue a los bordes */
+  text-align: center;
+}
+h2{
+  /* text-decoration me permite modificar el subrayado */
+  text-decoration: underline;
+}
+p{
+  /* font-style me permite cambiar el tipo de letra a italico */
+  font-style: italic;
+  /* text-align me alinea el texto en este caso lo estamos justificando es decir que hacemos que llegue a los bordes */
+  text-align: justify;
+  /* line-height me permite cambiar el interlineado */
+  line-height: 40px;
+}

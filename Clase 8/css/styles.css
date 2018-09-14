@@ -1,0 +1,41 @@
+body{
+  background-color: #8386d4;
+  /* background-image me va a permitir poner una imagen de fondo y dentro de URL tengo que decirle donde esta esa imageb */
+  background-image: url(../img/fondo2.jpg);
+  background-repeat: no-repeat;
+  /* el atributo fixed lo deja fijo en el fondo y cuando hago scroll no se mueve como el fondo de whatsapp */
+  background-attachment: fixed;
+  background-size: cover;
+}
+h1{
+  color: #fff;
+}
+p{
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+a{
+  background-color: #ffffff;
+  /* border-radius le pone los bordes redondeados */
+  border-radius: 10px;
+  text-decoration: none;
+}
+/* :hover me sirve para cuando le paso el mouse por arriba */
+a:hover{
+  background-color: rgb(53, 224, 0);
+  font-size: 30px;
+  border-radius: 0;
+}
+/* :link me sirve para modificar el link cuendo no esta visitado */
+a:link{
+  color: rgb(33, 0, 99);
+}
+/* :visited me sirve para modificar el link cuendo esta visitado  */
+a:visited{
+  color: rgb(230, 0, 93);
+}
+/* :active me sirve para modificar el link cuendo mantengo apretado el click  */
+a:active{
+  background-color: black;
+  color: white;
+}

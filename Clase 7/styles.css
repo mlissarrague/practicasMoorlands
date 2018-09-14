@@ -1,0 +1,22 @@
+p{
+  background-color: skyblue;
+  color: green;
+}
+/* para llamar a la clase desde CSS la llamo con "." y el nombre que le haya puesto*/
+.fondoRojo{
+  background-color: red;
+}
+/* para llamar al ID desde CSS la llamo con "#" y el nombre que le haya puesto*/
+
+#segundoParrafo{
+  color: blue;
+}
+
+/* tenemos el selector descendente que es aquel que me permite llamar a etiquetas adentro de otras etiquetas */
+
+#segundoParrafo a{
+  text-decoration: none;
+  background-color: yellow;
+}
+
+/* CSS respeta el nivel de especificidad y cuanto mas especidicos somos mas nos respeta. En estos casos el ID es mas especifico que la clase, y la clase es mas especifica que el nombre de la etqueta */

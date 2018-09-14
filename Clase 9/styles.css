@@ -1,0 +1,21 @@
+h1{
+  background-color: rgb(16, 140, 157);
+  color: #ffffff;
+  text-align: center;
+}
+/* voy a modificar todas las cajas en conjunto llamandolas con la clase .producto ya que todas tienen la misma clase y esto modifica a todas */
+.producto{
+  /* la propiedad display cambia el comportamiento de la caja. Por defecto la caja div es una caja de block es decir que ocupa todo el ancho de la pantalla. Para que los elementos se pongan uno al lado del otro este tiene que ser inline, PERO PERO PERO, si le pongo inline este deja de funcionar como caja entonces tiene que seguir siendo block. Para solucionar este problema tenemos el atributo inline-block que combina lo mejor de ambos mundos. */
+  display: inline-block;
+  /* le pongo un ancho en % para que todas las cajas ocupen los mismo y sea mas facil calcular cuentas cajas pueden entrar en una linea */
+  width: 32.6%;
+  text-align: center;
+  /* le agrego un borde a la caja diciendo ancho, tipo y color */
+  border: 3px solid black;
+}
+/* necesito seleccionar solo las imagenes que esten dentro de mi caja de producto */
+.producto img{
+  /* estas imagenes ocupan mas del 100% por lo cual las voy a achicar al 100% para que no sobresalgan de la caja. */
+  width: 100%;
+
+}
